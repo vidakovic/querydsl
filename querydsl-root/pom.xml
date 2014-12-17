@@ -402,7 +402,8 @@
         
         <!-- NoSQL -->
         <module>../querydsl-mongodb</module>
-        
+        <module>../querydsl-orientdb</module>
+
         <!-- Languages -->        
         <module>../querydsl-scala</module>
       </modules>
