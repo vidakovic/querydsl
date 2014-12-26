@@ -26,18 +26,6 @@ public final class OrientOps {
 
     public static final Operator<Object> FIRSTVALUE = new OperatorImpl<Object>(NS, "FIRSTVALUE");
 
-    public static final Operator<Object> RATIOTOREPORT = new OperatorImpl<Object>(NS, "RATIOTOREPORT");
-
-    public static final Operator<Long> ROWNUMBER = new OperatorImpl<Long>(NS, "ROWNUMBER");
-
-    public static final Operator<Object> UNION = new OperatorImpl<Object>(NS, "UNION");
-
-    public static final Operator<Object> UNION_ALL = new OperatorImpl<Object>(NS, "UNION_ALL");
-
-    public static final Operator<Object> WITH_ALIAS = new OperatorImpl<Object>(NS, "WITH_ALIAS");
-
-    public static final Operator<Object> WITH_COLUMNS = new OperatorImpl<Object>(NS, "WITH_COLUMNS");
-
     private OrientOps() {}
 
 }
