@@ -22,6 +22,8 @@ import com.mysema.query.types.Expression;
 import com.mysema.query.types.Operation;
 import com.mysema.query.types.TemplateExpression;
 
+import javax.persistence.Entity;
+
 /**
  * Abstract super class for SQLQuery implementation for JPA and Hibernate
  *
